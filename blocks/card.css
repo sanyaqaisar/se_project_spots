@@ -1,0 +1,43 @@
+.card{
+  width:413px;
+
+}
+
+.card__image{
+  height: 413px;
+  width:413px;
+  object-fit: cover;
+  display:block;
+
+}
+
+.card__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.card__like-btn{
+  background-image: url(../images/Like\ Icon.svg);
+  width:23px;
+  height:20px;
+  background-color: transparent;
+  opacity:40%;
+  border: none;
+}
+
+.card__title{
+ line-height: 1.2px;
+ font-weight: 500;
+ font-size: 20px;
+}
+
+@media screen and (max-width: 627px){
+ .card__image{
+  height: 288px;
+  width: 288px;
+}
+
+.card__content{
+width: 288px;
