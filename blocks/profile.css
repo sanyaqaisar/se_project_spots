@@ -118,10 +118,7 @@ max-width: 420px;
 
 .profile__name{
   font-size: 20px;
-  margin:0 0 6px;
-  font-weight: 500;
   margin: 0 0 6px;
-  line-height: 1;
   letter-spacing: normal;
   max-width:288px;
 
