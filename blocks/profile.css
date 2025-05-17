@@ -18,14 +18,6 @@ flex-direction: column;
 
 }
 
-.profile__description{
-margin:0px;
-color:#212121;
-opacity: 70%;
-
-}
-
-
 .profile__edit-btn{
   margin-top: auto;
   margin-right: auto;
@@ -33,23 +25,34 @@ opacity: 70%;
   gap:8px;
   font-size: 16px;
   font-weight: 500;
-  background-color: #FCF5E5;
+  line-height: 1;
+  background-color: transparent;
   border: none;
   color:#212121;
   opacity: 70%;
 
 }
 
+.profile__edit-btn:hover{
+cursor: pointer;
+opacity:100%;
+}
+
+
 .profile__name{
 margin:0 0 12px;
 font-weight: 500;
 font-size: 32px;
 line-height: 1;
+color:#212121;
+opacity: 70%;
 overflow: hidden;
 text-overflow: ellipsis;
 -webkit-line-clamp: 3;
 -webkit-box-orient: vertical;
 max-width: 420px;
+
+
 }
 
 
@@ -77,12 +80,17 @@ max-width: 420px;
   max-width: 288px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1px;
+  line-height: 1;
   color: #FCF5E5;
   background-color: #212121;
   width: 149px;
   height: 52px;
   border-radius: 8px;
+}
+
+.pofile__add-btn:hover{
+  cursor:pointer;
+  opacity:50%;
 }
 
 
