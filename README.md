@@ -14,7 +14,7 @@ This is the third project of the Software Engineering program at TripleTen. It w
 
 ## Deployment
 This webpage is deployed to GIthub pages
-[-Deployment link](https://sanyaqaisar.github.io/se_project_spots/) :  
+[-Deployment link]https://sanyaqaisar.github.io/se_project_spots/ :  
 
 
 
