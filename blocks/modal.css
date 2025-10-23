@@ -1,0 +1,159 @@
+.modal {
+  visibility: hidden;
+  background-color: #00000080;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: visibility 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+
+.modal_is-opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal__container {
+  max-width: 730px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  padding: 32px 50px;
+  position: relative;
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/close\ icon.svg);
+  background-color: white;
+  background-repeat: no-repeat;
+  border: none;
+  opacity: 0.4;
+}
+
+.modal__close-btn:hover {
+  visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.modal__title {
+  margin: 0 0 32px;
+  padding-top: 32px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 0.1;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__label {
+  margin: 0 0 32px;
+  padding-top: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  color: #212121b2;
+}
+
+.modal__input {
+  display: block;
+  margin: 8px 0 0;
+  padding: 16px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  border-color: #2121214d;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal__input::placeholder {
+  color: #2121214d;
+}
+
+.modal__submit-btn {
+  width: 156px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: #212121;
+  color: #fcf5e5;
+  opacity: 1;
+}
+
+.modal__submit-btn:hover {
+cursor: pointer;
+visibility: visible;
+opacity:0.8;
+
+
+
+}
+
+
+
+@media screen and (max-width: 627px) {
+  .modal {
+    width: 100%;
+  }
+
+  .modal__container {
+    height: 330px;
+    width: 300px;
+    padding: 0 12px;
+  }
+
+  .modal__input {
+    border-radius: 8px;
+    border-width: 1px;
+    margin-top: 8px;
+    font-size: 16px;
+    padding: 12px;
+
+  }
+
+  .modal__submit-btn:hover {
+
+    height: 52px;
+    border-radius: 8px;
+    padding: 18px 32px;
+  }
+
+  .modal__label {
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    padding-top: 0;
+  }
+
+  .modal__title {
+    margin-bottom: 34px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.1;
+  }
+
+  .modal_is-opened {
+    box-sizing: border-box;
+  }
+
+  .modal__close-btn {
+    top: 12px;
+    right: 12px;
+  }
+}
