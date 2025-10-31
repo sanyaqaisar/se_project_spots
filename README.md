@@ -13,7 +13,7 @@ This is the third project of the Software Engineering program at TripleTen. It w
 - GitHub
   -multipe user screens
   -Java Script
-  Filling and editing the form fields when opening the modal
+  -Filling and editing the form fields when opening the modal
 
 ## Deployment
 
